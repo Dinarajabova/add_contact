@@ -63,6 +63,10 @@ const appendElement = function() {
 
 // formni eshitish
 
+
+
+
+
  form.addEventListener("submit", function(evt) {
      evt.preventDefault(); 
 
@@ -73,13 +77,15 @@ const appendElement = function() {
      const selectValue = formSelect.value;
      const telValue = telInput.value.trim();
 
-
-   
-
+    
+            
+  
      
 
      pushObject(nameValue, lastNameValue, selectValue, telValue);
      appendElement();
     console.log(contactsArray);
     
+   
+
  })
